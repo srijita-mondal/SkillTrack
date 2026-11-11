@@ -2,6 +2,43 @@
 
 SkillTrack helps campaign coordinators verify students' public Google Skills profiles, count unique earned badges, monitor progress against campaign rules and export student-level reports.
 
+## ⚙️ How SkillTrack Works
+
+SkillTrack follows a simple six-step workflow:
+
+**1. Upload Student Data**
+
+Upload a CSV file containing student IDs, student names, email addresses, and Google Skills public profile URLs.
+
+**2. Map CSV Columns**
+
+SkillTrack analyses the uploaded file and suggests column mappings. Review and confirm the mapping before proceeding.
+
+**3. Validate the Student List**
+
+The application checks profile URLs, identifies invalid links, and detects duplicate profiles before starting verification.
+
+**4. Verify Google Skills Profiles**
+
+SkillTrack accesses valid public profiles, extracts earned badge information, and calculates the badge count for each student.
+
+**5. Review Results and Track Progress**
+
+View individual student verification results, badge counts, summary statistics, and any errors encountered during processing. Failed verification attempts can be retried.
+
+**6. Generate Reports**
+
+Generate reports containing the collected student verification results for further analysis and record-keeping.
+
+## 🎥 Project Demonstration
+
+Watch SkillTrack v1.2.0 in action:
+
+▶️ **[Watch the SkillTrack Demo Video](https://drive.google.com/drive/folders/1rsVzapTMphU_Ms9hj02M9c4j5xMACMZk?usp=drive_link)**
+
+The demonstration covers the complete workflow, from CSV upload and column mapping to live badge verification, progress tracking, and report generation.
+
+
 ## What the application does
 
 - Imports coordinator CSV files up to **5 MB** and detects likely profile URL, student ID, name and email columns.
@@ -13,6 +50,21 @@ SkillTrack helps campaign coordinators verify students' public Google Skills pro
 - Shows searchable student results, profile details, badge titles, campaign statistics, a session-only recent activity log and coordinator reports.
 - Lets coordinators retry only previously failed profiles without re-running successful checks.
 - Exports Excel-friendly CSV files and protects text fields against spreadsheet formula injection.
+
+
+## ✨ Key Features
+
+- **CSV Student List Import:** Upload a CSV file containing student details and Google Skills public profile URLs.
+- **Smart Column Mapping:** Automatically suggests the appropriate columns based on column names and URL values, with manual confirmation.
+- **Profile URL Validation:** Identifies invalid profile links before verification begins.
+- **Live Badge Verification:** Fetches public Google Skills profiles and detects earned badges.
+- **Duplicate Profile Detection:** Checks identical profile URLs only once and reuses the verification result for matching students.
+- **Progress Tracking:** Monitors student badge achievements and provides an overview of verification results.
+- **Detailed Error Handling:** Handles invalid URLs, network interruptions, HTTP errors, and failed profile requests with meaningful feedback.
+- **Retry Failed Profiles:** Allows unsuccessful verification attempts to be retried.
+- **Activity Log:** Provides visibility into verification activity and processing results.
+- **Report Generation:** Generates reports from the collected verification results.
+- **Modern Dashboard:** A clean interface with a Midnight Teal-inspired colour palette, improved typography, and an intuitive workflow.
 
 ## Application workflow
 
