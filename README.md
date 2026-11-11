@@ -1,6 +1,6 @@
 # SkillTrack — Google Skills Badge Verification Dashboard
 
-SkillTrack helps campaign coordinators verify students' public Google Skills profiles, count unique earned badges, monitor progress against campaign rules and export student-level reports.
+SkillTrack helps campaign coordinators verify students' public Google Skills profiles, count unique earned badges, monitor progress against campaign rules and export student-level reports. Instead of requiring campaign coordinators to visit each profile and manually count the badges, the scraper retrieves the profile information, extracts the earned badges, and processes the results.
 
 ## ⚙️ How SkillTrack Works
 
@@ -37,6 +37,14 @@ Watch SkillTrack v1.2.0 in action:
 ▶️ **[Watch the SkillTrack Demo Video](https://drive.google.com/drive/folders/1rsVzapTMphU_Ms9hj02M9c4j5xMACMZk?usp=drive_link)**
 
 The demonstration covers the complete workflow, from CSV upload and column mapping to live badge verification, progress tracking, and report generation.
+
+## Highlights
+- Campaign Rules: allows coordinators to customise the criteria for campaign completion. For example, if a learning campaign requires students to earn specific Google Skills badges, the coordinator can select the 'Specific Required Badges' verification mode and enter the required badge titles. SkillTrack then compares the badges extracted from each student's profile against these requirements to determine their campaign progress and completion status.
+  
+- Scraper Settings: provides control over how SkillTrack interacts with the source website. The request delay introduces a pause between profile requests to avoid sending them too rapidly. The maximum retry setting allows temporary failures to be retried, while the timeout prevents the application from waiting indefinitely for an unresponsive profile.
+SkillTrack also supports respecting robots.txt instructions. Additionally, a JavaScript rendering fallback is available for websites that load content dynamically.
+
+- Session & Privacy: provides a way to manage the data held during an active SkillTrack session. Uploaded student information and verification results are maintained in the active Streamlit session's server-side memory. Once a verification task is complete, the coordinator can use the Clear Current Session option to clear the loaded student list and results.
 
 
 ## What the application does
