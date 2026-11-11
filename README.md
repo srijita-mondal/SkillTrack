@@ -34,7 +34,7 @@ Generate reports containing the collected student verification results for furth
 
 Watch SkillTrack v1.2.0 in action:
 
-▶️ **[Watch the SkillTrack Demo Video](https://drive.google.com/drive/folders/1rsVzapTMphU_Ms9hj02M9c4j5xMACMZk?usp=drive_link)**
+▶️ **[Watch the SkillTrack Demo Video](https://drive.google.com/file/d/17yfK2EEcOvSRNNMYa-cCGSbt9n1Uv5i9/view?usp=drive_link)**
 
 The demonstration covers the complete workflow, from CSV upload and column mapping to live badge verification, progress tracking, and report generation.
 
