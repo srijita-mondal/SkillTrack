@@ -32,7 +32,7 @@ Generate reports containing the collected student verification results for furth
 
 ## 🎥 Project Demonstration
 
-Watch SkillTrack v1.2.0 in action:
+Watch SkillTrack in action:
 
 ▶️ **[Watch the SkillTrack Demo Video](https://drive.google.com/file/d/17yfK2EEcOvSRNNMYa-cCGSbt9n1Uv5i9/view?usp=drive_link)**
 
