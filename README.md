@@ -1,8 +1,5 @@
 # SkillTrack — Google Skills Badge Verification Dashboard
 
-**Campaign:** Learn With Communities  
-**Version:** 1.2.0
-
 SkillTrack helps campaign coordinators verify students' public Google Skills profiles, count unique earned badges, monitor progress against campaign rules and export student-level reports.
 
 ## What the application does
