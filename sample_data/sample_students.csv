@@ -1,0 +1,5 @@
+Student ID,Student Name,Email,Google Skills Profile URL,Department
+S001,Sample Student One,,https://www.skills.google/public_profiles/be556f7b-ab4b-4be7-82fb-9be45202ddd7,Computer Science
+S002,Sample Student Two,,https://www.skills.google/public_profiles/00000000-0000-4000-8000-000000000002,Information Technology
+S003,Sample Student Three,,not-a-valid-link,Electronics
+S004,Sample Student Four,,https://www.skills.google/public_profiles/be556f7b-ab4b-4be7-82fb-9be45202ddd7,Computer Science

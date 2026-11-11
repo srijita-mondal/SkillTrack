@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=8.0
+# Optional JavaScript-rendering fallback (only if the profile HTML lacks badge data):
+# playwright>=1.44   then run:  playwright install chromium
